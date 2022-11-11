@@ -1,0 +1,35 @@
+Instructions:
+
+READ BEFORE CODING!!!!!!!!!!
+
+So Who's doing what.... 
+
+Dylan  - homepage & booking page
+Chris  - gallery
+Evelyn - services
+Divya  - contact (plus Figma design)
+
+Of Course, there will be collaboration if someone needs help!!
+
+	1) When will we be meeting...
+
+Check Discord for updates, but either Wednesdays before class
+or if that does not work, Friday mornings (personally perferred).
+
+ 	2) How will the work get done...
+
+Each member should work on their respective page before we meet up.
+We should all share the html files with each other 
+	so we can all be on the "same page" when developing.
+	Sharing individaul files will be through Discord or email, whichever is preferred.
+
+	3)What about Live Share during meetup...
+
+I can host a Live Share session on VS Code so we can edit together; after that,
+	 I'll reemail a zipped file with those changes that we collaborated on 
+	 so everyone can continue thier individual pages. 
+
+Thanks for Reading!!!
+
+
+-Dylan H.

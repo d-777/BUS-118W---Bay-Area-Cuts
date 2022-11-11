@@ -1,0 +1,38 @@
+#bacsec {
+    background-image: url(../images/Mask.png);
+    background-repeat: no-repeat;
+    padding: 130px;
+    margin-left: 250px;
+    margin-top: -100px;
+    max-width: 100%;
+}
+
+#about_space {
+    text-align: center;
+    margin: 35px;
+    margin-left: 380px;
+    padding: 20px;
+    width: 700px;
+}
+
+.space {
+    text-align: center;
+    margin: 45px;
+    padding: 20px;
+}
+
+.new_image {
+    padding: 2.5rem;
+    margin: 1.25rem;
+
+}
+
+.div_change {
+    color: chocolate;
+    background-color: blanchedalmond;
+    padding: 10px;
+    max-width: max-content;
+    margin-top: 40px;
+    margin-left: 290px;
+    text-align: center;
+}

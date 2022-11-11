@@ -1,0 +1,88 @@
+  /*style for header and nav*/
+  header {
+      background-color: #C4AEA8;
+      margin-bottom: 2px;
+      max-width: 100%;
+  }
+
+  span img {
+      background-color: #222239;
+      width: 10.5rem;
+      height: 4rem;
+      margin: .2rem;
+      margin-left: -.5rem;
+      float: left;
+  }
+
+  ul,
+  a {
+      list-style-type: none;
+      text-decoration: none;
+      color: #222239;
+      font-family: Lexend;
+      font-weight: 500;
+  }
+
+  h1 {
+      font-family: Lexend;
+      color: #4B4E67;
+      font-weight: 900;
+  }
+
+  #float_head {
+
+      text-align: center;
+      margin-right: 10rem;
+      margin-bottom: 11rem;
+      display: grid;
+      max-width: 100%;
+      min-width: 50%;
+      font-weight: bolder;
+  }
+
+  #float_nav {
+      float: left;
+      padding: 15px;
+  }
+
+  #float_new {
+      margin-top: -14.5rem;
+      padding-right: 7.5rem;
+      font-size: 20px;
+      float: right;
+      max-width: 100%;
+      display: flexbox;
+  }
+
+  /*style for body*/
+  body {
+      background-color: #F0E9E4;
+      font-family: Lexend;
+      font-weight: 400;
+  }
+
+  /*style for footer*/
+  footer {
+      background-color: #4B4E67;
+      color: #F0E9E4;
+      padding: 5rem;
+      padding-top: .9rem;
+  }
+
+  footer a {
+      color: #F0E9E4;
+  }
+
+  #contain {
+      padding-top: 1rem;
+      padding-bottom: 3rem;
+      padding-left: 4rem;
+  }
+
+  #one {
+      float: left;
+  }
+
+  #two {
+      float: right;
+  }

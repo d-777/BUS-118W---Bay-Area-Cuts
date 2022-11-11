@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bay Area Cuts: Home Page</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/booking.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <script src="scripts/booking_script.js"></script>
+
+</head>
+
+<body>
+    <main>
+        <header>
+            <!--FOR LOGO AND LINKS-->
+            <div>
+                <!--Remove if not needed-->
+                <nav>
+                    <!-- navagation bar with links-->
+                    <ul>
+                        <div>
+                            <!-- Logo goes here-->
+                            <span id="span">
+                                <li><img src="images/LOGO_bayarea.png" alt="Bay Area Cuts Logo"></li>
+                            </span>
+                        </div>
+                        <div id="float_head">
+                            <li><a href="index.html">
+                                    <h1>Bay Area Salon</h1>
+                                </a>
+                            </li>
+                        </div>
+                        <div id="float_new">
+                            <div id="float_nav">
+                                <li><a href="services.html">Services</a></li>
+                            </div>
+                            <div id="float_nav">
+                                <li><a href="gallery.html">Gallery</a></li>
+                            </div>
+                            <div id="float_nav">
+                                <li><a href="contact.html">Contact</a></li>
+                            </div>
+                        </div>
+            </div>
+            </ul>
+            </nav>
+            </div>
+        </header>
+        <section>
+            <!-- USED TO ORGANIZE SECTIONS OF CONTENT ON THE WEBPAGE-->
+            <!-- Select tag used for drop-down selection -->
+            <h2>Booking Services</h2>
+
+            <div>
+                <label for="services">
+                    <h3>Choose a service:</h3>
+                </label>
+                <select name="services" id="services">
+                    <option value="">All Services</option>
+                    <option value="hair-cut">Hair Cut</option>
+                    <option value="color">Color</option>
+                    <option value="treatment">Treatment</option>
+                    <option value="style">Style</option>
+                    <option value="shampoo">Shampoo</option>
+                    <option value="Shave and beard">Shave &amp; Beard</option>
+                </select>
+            </div>
+        </section>
+
+        <section>
+            <!-- section for input field -->
+            <form action="tacos">
+                <div>
+                    <label for="name">Name:</label>
+                </div>
+                <input id="name" type="text" name="name">
+                <div>
+                    <label for="email">Email:</label>
+                </div>
+                <input id="email" type="email" name="email">
+                <div>
+                    <label for="phone">Phone Number:</label>
+                </div>
+                <input id="phone" type="number" name="phone number">
+
+            </form>
+        </section>
+
+        <section onload="calendar()">
+
+            <!--calendar-->
+            <div class="month">
+                <ul>
+                    <li class="prev">&#10094;</li>
+                    <li class="next">&#10095;</li>
+                    <li class="month-title">
+                        <span class="month-name"></span>
+                        <br>
+                        <span class="year"></span>
+                    </li>
+                </ul>
+            </div>
+
+            <ul class="weekdays">
+                <li>Mo</li>
+                <li>Tu</li>
+                <li>We</li>
+                <li>Th</li>
+                <li>Fr</li>
+                <li>Sa</li>
+                <li>Su</li>
+            </ul>
+
+            <ul class="days">
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li><span class="active">10</span></li>
+                <li>11</li>
+                <li>12</li>
+                <li>13</li>
+                <li>14</li>
+                <li>15</li>
+                <li>16</li>
+                <li>17</li>
+                <li>18</li>
+                <li>19</li>
+                <li>20</li>
+                <li>21</li>
+                <li>22</li>
+                <li>23</li>
+                <li>24</li>
+                <li>25</li>
+                <li>26</li>
+                <li>27</li>
+                <li>28</li>
+                <li>29</li>
+                <li>30</li>
+                <li>31</li>
+            </ul>
+
+
+        </section>
+
+        <footer>
+            <!-- footer content with contact information -->
+            <div id="contain">
+                <!-- contains contact footers-->
+                <div id="one">
+                    <!-- footer one-->
+                    <p>408-111-2323</p>
+                    <p>@bayareasalon</p>
+                    <p>bayareasalon@gmail.com</p>
+                </div>
+                <div id="two">
+                    <!-- footer two-->
+                    <h3>Bay Area Salon</h3>
+                    <p>1234 Salon Way, CA, 83990</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
