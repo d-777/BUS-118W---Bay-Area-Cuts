@@ -1,7 +1,14 @@
 #iframe {
     text-align: center;
+    margin: 5px;
+    margin-bottom: 10px;
 }
 
 iframe {
     background-color: white;
+    background-attachment: initial;
+}
+
+h2 {
+    text-align: center;
 }
