@@ -1,11 +1,10 @@
-body {
-  background-color: #C4AEA8;
+.div_change {
+  float: inline-start;
 }
 
 .main {
   width: 1170px;
-  margin: 100px auto;
-  margin-top: -90px;
+  margin: auto;
 }
 
 .section-title {
