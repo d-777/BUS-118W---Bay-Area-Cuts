@@ -1,14 +1,11 @@
-#iframe {
-    text-align: center;
-    margin: 5px;
-    margin-bottom: 10px;
+#new_div_change_2 {
+    margin: 20px auto 20px auto;
+    justify-content: center;
 }
+
 
 iframe {
     background-color: white;
     background-attachment: initial;
-}
-
-h2 {
-    text-align: center;
+    margin-bottom: 20px;
 }

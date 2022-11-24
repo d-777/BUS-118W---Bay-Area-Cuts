@@ -1,10 +1,19 @@
-.div_change {
-  float: inline-start;
+.new_div_change {
+  color: chocolate;
+  background-color: blanchedalmond;
+  padding: 10px;
+  float: right;
+  display: flex;
+  margin: 5px;
 }
 
 .main {
   width: 1170px;
-  margin: auto;
+  margin: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+
 }
 
 .section-title {
