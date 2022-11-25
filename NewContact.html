@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/index.css">
+    <style>
+    </style>    
+</head>
+<body>
+    <main>
+        <header>
+            <nav>
+                <ul>
+                    <span id="span">
+                        <li><img src="images/LOGO_bayarea.png" alt="Bay Area Cuts Logo"></li>
+                    </span>
+                    <div class="nav_contain">
+                        <li><a href="index.html">
+                                <h1>BAY AREA SALON</h1>
+                            </a>
+                        </li>
+                        <div class="nav_sub_contain">
+                            <li class="hover"><a href="services.html">Services</a></li>
+                            <li class="hover"><a href="gallery.html">Gallery</a></li>
+                            <li class="hover"><a href="contact.html">Contact</a></li>
+                        </div>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+        <section class="bacsec">
+            <h2 class="form-title">Contact Us</h2>
+            <div>
+                <p>
+                    408-111-2323
+                    <br>
+                    bayareasalon@gmail.com
+                    <br>
+                    @bayareasalon
+                </p>
+            </div>
+            <div>
+                <p>
+                    Timings:
+                    <br>
+                    M-F: 12PM - 6PM
+                    <br>
+                    SAT: 10AM - 7:20PM
+                    <br>
+                    SUN: 10AM - 7:30PM
+                </p>
+            </div>
+        </section>
+        <section>
+            <!-- section two contains form information-->
+            <div>
+                <h4> Have more questions or enquires?</h4>
+                <p> Fill out the form below and leave us a message! </p>
+            </div>
+
+    <form action="testredirect.html" method="post" class="form">
+        <div class="main-user-info">
+          <div class="user-input-box">
+            <label for="fullName" className="v208_2"> Full Name </label>
+            <input
+              type="text"
+              id="fullName"
+              name="fullName"
+              placeholder="Enter Full Name"
+              required
+            />
+          </div>
+          <div class="user-input-box">
+            <label for="email"> Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter Email"
+              required
+            />
+          </div>
+  
+          <div>
+            <p>
+              <label
+                >Enter Message:<br />
+                <textarea
+                  name="message"
+                  id="message"
+                  rows="4"
+                  cols="36"
+                ></textarea>
+              </label>
+            </p>
+            <button onclick="send()">Send</button>
+          </div>
+        </div>
+      </form>
+      <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
+      <script src="testcontact.js"></script>
+</body>
+</html>
