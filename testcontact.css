@@ -1,0 +1,121 @@
+.form-title {
+  font-family: Lexend;
+  color: #4B4E67;
+  font-weight: 1000;
+  text-align: center;
+  padding: 20px;
+
+}
+
+.bacsec {
+  font-family: Lexend;
+  color: #000000;
+  font-weight: 500;
+  text-align: center;
+  padding: 30px;
+}
+
+.form {
+  max-width: 100%;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px;
+  display: flex;
+}
+
+.main-user-info {
+  float: left;
+  width: 100%;
+  border: 3px solid rgba(152, 140, 151, 1);
+  background-color: rgba(217, 217, 217, 0.5);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+}
+
+.user-input-box {
+  padding: 10px;
+}
+
+.buttons {
+  padding: 10px;
+  background-color: rgba(152, 140, 151, 1);
+  border: none;
+  color: rgb(0, 0, 0);
+  font-weight: medium;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-top: 10px;
+  font-family: "Lexend";
+
+}
+
+.messages {
+  font-family: Lexend;
+  font-weight: 400;
+  padding: 10px;
+  margin: auto;
+}
+
+.nameclass {
+  font-family: Lexend;
+  font-weight: 400;
+  padding: 0px;
+  margin: auto;
+}
+
+.email {
+  font-family: Lexend;
+  font-weight: 400;
+  padding: 0px;
+  margin: auto;
+}
+
+@media (max-width:541px) {
+  .bacsec {
+    display: block;
+    justify-content: center;
+  }
+
+  .form_info {
+    text-align: center;
+  }
+}
+
+@media (min-width:542px) and (max-width:3000px) {
+  .contactInfo {
+    padding-left: 30px;
+
+  }
+
+  .timings {
+    padding-left: 30px;
+  }
+}
+
+/*.button
+{
+  align-self: auto;
+  font-size: 20px;
+  text-align: center;
+
+.form{
+width: 400px;
+max-width: 600px;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+background-color: while;
+padding: 25px;
+display: flex;
+flex-direction: column;
+}
+
+.form_info {
+  font-family: Lexend;
+  color: #000000;
+  font-weight: 100;
+  text-align: center;
+  padding: 20px;
+
+}
