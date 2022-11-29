@@ -22,6 +22,8 @@
   margin-right: auto;
   padding: 25px;
   display: flex;
+  border: none;
+  border-radius: 35px;
 }
 
 .main-user-info {
@@ -47,30 +49,61 @@
   text-transform: uppercase;
   margin-top: 10px;
   font-family: "Lexend";
-
 }
 
-.messages {
-  font-family: Lexend;
-  font-weight: 400;
-  padding: 10px;
-  margin: auto;
-}
 
-.nameclass {
-  font-family: Lexend;
-  font-weight: 400;
-  padding: 0px;
-  margin: auto;
-}
 
 .email {
   font-family: Lexend;
   font-weight: 400;
-  padding: 0px;
+  padding: 20px 12px 10px;
   margin: auto;
+  text-align: justify;
+}
+.messages {
+  font-family: Lexend;
+  font-weight: 400;
+  padding: 20px 12px 10px;
+  margin: auto;
+  text-align: justify;
+}
+.nameclass {
+  font-family: Lexend;
+  font-weight: 400;
+  padding: 20px 12px 10px;
+  margin: auto;
+  text-align: justify;
 }
 
+
+input[type="email"] {
+    background-color: #ffffff;
+    border: none;
+    padding: 10px;
+    box-sizing: border-box;
+    font-weight: light;
+    font-family: "Lexend";
+    font-size: 12px;
+  }
+
+input[type="text"] {
+  background-color: #ffffff;
+  border: none;
+  padding: 10px;
+  box-sizing: border-box;
+  font-weight: light;
+  font-family: "Lexend";
+  font-size: 12px;
+  }
+input[type="messages"] {
+  background-color: #ffffff;
+  border: none;
+  padding: 10px;
+  box-sizing: border-box;
+  font-weight: light;
+  font-family: "Lexend";
+  font-size: 12px;
+  }
 @media (max-width:541px) {
   .bacsec {
     display: block;
@@ -118,4 +151,43 @@ flex-direction: column;
   text-align: center;
   padding: 20px;
 
+}
+
+.nameclass {
+  font-family: Lexend;
+  font-weight: 400;
+  padding: 0px;
+  margin: auto;
+  
+}
+
+.email {
+  font-family: Lexend;
+  font-weight: 400;
+  padding: 0px;
+  margin: auto;
+}
+----- latest 
+.messages {
+  font-family: Lexend;
+  font-weight: 400;
+  padding: 20px 12px 10px;
+  margin: auto;
+  border: none;
+  font-family: "Lexend";
+  color:rgb(0, 0, 0);
+  
+
+}
+
+.nameclass {
+  font-family: Lexend;
+  font-weight: 400;
+  padding: 12px 20px 0px;
+  margin: auto;
+  width: 50%;
+  border: none;
+  background-color: white;
+  color: white;
+  text-align: justify;
 }
