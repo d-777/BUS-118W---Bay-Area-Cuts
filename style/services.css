@@ -1,3 +1,4 @@
+/*  Class for Book Your Service Button */
 .new_div_change {
   color: chocolate;
   background-color: blanchedalmond;
@@ -7,6 +8,7 @@
   margin: 5px;
 }
 
+/* Other Classes for Body of the Page */
 .main {
   width: 1170px;
   margin: 5px;

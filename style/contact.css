@@ -1,3 +1,4 @@
+/*class for S1*/
 .form-title {
   font-family: Lexend;
   color: #4B4E67;
@@ -7,6 +8,7 @@
 
 }
 
+/*class for S2*/
 .bacsec {
   font-family: Lexend;
   color: #000000;
@@ -15,6 +17,7 @@
   padding: 30px;
 }
 
+/*class for S4*/
 .form {
   max-width: 100%;
   text-align: left;
@@ -26,6 +29,7 @@
   border-radius: 35px;
 }
 
+/*classes for div/script section*/
 .main-user-info {
   float: left;
   width: 100%;
@@ -51,8 +55,6 @@
   font-family: "Lexend";
 }
 
-
-
 .email {
   font-family: Lexend;
   font-weight: 400;
@@ -60,6 +62,7 @@
   margin: auto;
   text-align: justify;
 }
+
 .messages {
   font-family: Lexend;
   font-weight: 400;
@@ -67,6 +70,7 @@
   margin: auto;
   text-align: justify;
 }
+
 .nameclass {
   font-family: Lexend;
   font-weight: 400;
@@ -77,14 +81,14 @@
 
 
 input[type="email"] {
-    background-color: #ffffff;
-    border: none;
-    padding: 10px;
-    box-sizing: border-box;
-    font-weight: light;
-    font-family: "Lexend";
-    font-size: 12px;
-  }
+  background-color: #ffffff;
+  border: none;
+  padding: 10px;
+  box-sizing: border-box;
+  font-weight: light;
+  font-family: "Lexend";
+  font-size: 12px;
+}
 
 input[type="text"] {
   background-color: #ffffff;
@@ -94,7 +98,8 @@ input[type="text"] {
   font-weight: light;
   font-family: "Lexend";
   font-size: 12px;
-  }
+}
+
 input[type="messages"] {
   background-color: #ffffff;
   border: none;
@@ -103,7 +108,9 @@ input[type="messages"] {
   font-weight: light;
   font-family: "Lexend";
   font-size: 12px;
-  }
+}
+
+/* Media Query for devices within 541px range */
 @media (max-width:541px) {
   .bacsec {
     display: block;
@@ -115,6 +122,7 @@ input[type="messages"] {
   }
 }
 
+/* Media Query for devices of 542px and above*/
 @media (min-width:542px) and (max-width:3000px) {
   .contactInfo {
     padding-left: 30px;
@@ -124,70 +132,4 @@ input[type="messages"] {
   .timings {
     padding-left: 30px;
   }
-}
-
-/*.button
-{
-  align-self: auto;
-  font-size: 20px;
-  text-align: center;
-
-.form{
-width: 400px;
-max-width: 600px;
-text-align: center;
-margin-left: auto;
-margin-right: auto;
-background-color: while;
-padding: 25px;
-display: flex;
-flex-direction: column;
-}
-
-.form_info {
-  font-family: Lexend;
-  color: #000000;
-  font-weight: 100;
-  text-align: center;
-  padding: 20px;
-
-}
-
-.nameclass {
-  font-family: Lexend;
-  font-weight: 400;
-  padding: 0px;
-  margin: auto;
-  
-}
-
-.email {
-  font-family: Lexend;
-  font-weight: 400;
-  padding: 0px;
-  margin: auto;
-}
------ latest 
-.messages {
-  font-family: Lexend;
-  font-weight: 400;
-  padding: 20px 12px 10px;
-  margin: auto;
-  border: none;
-  font-family: "Lexend";
-  color:rgb(0, 0, 0);
-  
-
-}
-
-.nameclass {
-  font-family: Lexend;
-  font-weight: 400;
-  padding: 12px 20px 0px;
-  margin: auto;
-  width: 50%;
-  border: none;
-  background-color: white;
-  color: white;
-  text-align: justify;
 }

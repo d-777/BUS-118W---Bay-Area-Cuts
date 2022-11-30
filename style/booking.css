@@ -1,9 +1,10 @@
+/*  Class for Book Your Service Button */
 #new_div_change_2 {
     margin: 20px auto 20px auto;
     justify-content: center;
 }
 
-
+/* style for Google Calendar iframe type */
 iframe {
     background-color: white;
     background-attachment: initial;

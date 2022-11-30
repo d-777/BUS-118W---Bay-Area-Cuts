@@ -3,7 +3,7 @@
       padding: 0;
   }
 
-  /* styles the elements within type body after the header*/
+  /* styles type body*/
   body {
       background-color: #F0E9E4;
       font-family: Lexend;
@@ -22,20 +22,7 @@
       justify-content: center;
   }
 
-  /*styles the footer type*/
-  footer {
-      background-color: #4B4E67;
-      color: #F0E9E4;
-      width: 100%;
-      overflow-y: hidden;
-  }
-
-  footer a {
-      color: #F0E9E4;
-  }
-
-  /* styles everything within type header*/
-
+  /* styles within type header*/
   ul,
   a {
       list-style-type: none;
@@ -51,6 +38,17 @@
       font-weight: 900;
   }
 
+  /*styles the footer type*/
+  footer {
+      background-color: #4B4E67;
+      color: #F0E9E4;
+      width: 100%;
+      overflow-y: hidden;
+  }
+
+  footer a {
+      color: #F0E9E4;
+  }
 
   /*IDs for type header*/
   #span img {
@@ -80,7 +78,7 @@
       margin: 5px;
   }
 
-  /*class within the header*/
+  /*classes within the header*/
   .nav_contain {
       padding: 15px;
       text-align: center;
@@ -104,6 +102,28 @@
       color: #0d0d14;
   }
 
+  /* ---- Only seperate class belonging to testdirect --- */
+  .fix_para {
+      text-align: center;
+      margin: 35px;
+      margin-left: 44px;
+      padding: 20px;
+  }
+
+  /* ---- END testdirect --- */
+
+  /* Media Query for devices from 540-646px*/
+  @media (min-width:540px) and (max-width:646px) {
+      #one {
+          margin-left: -40px;
+      }
+
+      #two {
+          margin-right: -40px;
+      }
+  }
+
+  /* Media Query for devices from 540-3000px*/
   @media (min-width: 540px) and (max-width:3000px) {
       #span img {
           width: 10.5rem;

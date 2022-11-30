@@ -13,35 +13,39 @@
 </head>
 
 <body>
-  <header>
-    <nav>
-      <ul>
-        <span id="span">
-          <li><img src="images/LOGO_bayarea.png" alt="Bay Area Cuts Logo"></li>
-        </span>
-        <div class="nav_contain">
-          <li><a href="index.html">
-              <h1>BAY AREA SALON</h1>
-            </a>
-          </li>
-          <div class="nav_sub_contain">
-            <li class="hover"><a href="services.html">Services</a></li>
-            <li class="hover"><a href="gallery.html">Gallery</a></li>
-            <li class="hover"><a href="contact.html">Contact</a></li>
-          </div>
-        </div>
-      </ul>
-    </nav>
-  </header>
-
-
   <main>
+    <header>
+      <!--FOR LOGO AND LINKS-->
+      <nav>
+        <!-- navagation bar with links-->
+        <ul>
+          <!-- Logo goes here-->
+          <span id="span">
+            <li><img src="images/LOGO_bayarea.png" alt="Bay Area Cuts Logo"></li>
+          </span>
+          <div class="nav_contain">
+            <li><a href="index.html">
+                <h1>BAY AREA SALON</h1>
+              </a>
+            </li>
+            <div class="nav_sub_contain">
+              <li class="hover"><a href="services.html">Services</a></li>
+              <li class="hover"><a href="gallery.html">Gallery</a></li>
+              <li class="hover"><a href="contact.html">Contact</a></li>
+            </div>
+          </div>
+        </ul>
+      </nav>
+    </header>
 
-    <!--This is the form title-->
-    <h2 class="form-title">Contact Us</h2>
 
-    <!--Contact Information-->
+    <section>
+      <!-- Section One: Title of Webpage-->
+      <h2 class="form-title">Contact Us</h2>
+    </section>
+
     <section class="bacsec">
+      <!-- Section Two: Contact Information-->
       <div class="contactInfo">
         <p>
           408-111-2323
@@ -64,16 +68,16 @@
       </div>
     </section>
 
-    <!--Title for form-->
     <section class="form_info">
+      <!-- Section Three: Title of the Form-->
       <div>
         <h3> Have more questions or enquires?</h3>
         <p> Fill out the form below and leave us a message! </p>
       </div>
     </section>
 
-    <!--Section for all of form-->
     <section class="form">
+      <!--Section Four: The Body of the Form-->
       <form action="testredirect.html" method="post" class="form">
 
         <!--Div for all of form design-->
@@ -97,34 +101,36 @@
           </div>
         </div>
       </form>
+      <!-- Script infomation --DOES-- connect to Firebase-->
       <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
       <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
       <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
       <script src="scripts/testcontact.js"></script>
+      <!--END Section Four: The Body of the Form-->
     </section>
+    <footer>
+      <!-- Footer content with contact information -->
+      <div id="contain">
+        <!-- contains contact footers-->
+        <div id="one">
+          <!-- Footer One-->
+          <div class="foot_res_1">
+            <p>408-111-2323</p>
+          </div>
+          <p>@bayareasalon</p>
+          <!-- Email Link -->
+          <div class="foot_res_2">
+            <p> <a href="mailto:bayareasalon@gmail.com">bayareasalon@gmail.com</a></p>
+          </div>
+        </div>
+        <div id="two">
+          <!-- Footer Two-->
+          <h3>BAY AREA SALON</h3>
+          <p>1234 Salon Way, CA, 83990</p>
+        </div>
+      </div>
+    </footer>
   </main>
-  <footer>
-    <!-- footer content with contact information -->
-    <div id="contain">
-      <!-- contains contact footers-->
-      <div id="one">
-        <!-- footer one-->
-        <div class="foot_res_1">
-          <p>408-111-2323</p>
-        </div>
-        <p>@bayareasalon</p>
-
-        <div class="foot_res_2">
-          <p> <a href="mailto:bayareasalon@gmail.com">bayareasalon@gmail.com</a></p>
-        </div>
-      </div>
-      <div id="two">
-        <!-- footer two-->
-        <h3>BAY AREA SALON</h3>
-        <p>1234 Salon Way, CA, 83990</p>
-      </div>
-    </div>
-  </footer>
 </body>
 
 </html>

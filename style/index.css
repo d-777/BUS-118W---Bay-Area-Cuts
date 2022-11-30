@@ -1,8 +1,9 @@
+/*ID for Background Image*/
 #bacsec {
     background-image: url(../images/New_image.jpg);
-    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: center;
+    background-attachment: fixed;
+    background-position: top;
     height: auto;
     margin-top: 20px;
     padding: 115px;
@@ -11,6 +12,7 @@
 
 }
 
+/*ID for About Section*/
 #about_space {
     text-align: center;
     margin: 35px;
@@ -19,6 +21,7 @@
 
 }
 
+/*Various Classes*/
 .div_change {
     color: chocolate;
     background-color: blanchedalmond;
@@ -28,9 +31,10 @@
 }
 
 .space {
-    margin: auto;
-    margin-bottom: 50px;
-    margin-left: 5px;
+    text-align: center;
+    margin: 35px;
+    margin-left: 40px;
+    padding: 20px;
 }
 
 .new_image {
