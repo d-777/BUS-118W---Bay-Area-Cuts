@@ -7,7 +7,7 @@ So Who's doing what....
 
 Dylan  - homepage & booking page; also modified other pages
 Chris  - gallery page
-Evelyn - services page
+Evelyn - services page & Researched similar service sheets in other websites. 
 Divya  - contact page (and most of the Figma design).
 ///////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////
